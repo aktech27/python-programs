@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel='stylesheet' type='text/css' href='web.css'>
+     <script src='web.js'></script>
+     <title>INVOICE000</title>
+</head>
+<body id="fullbody" onload="printr()">
+     <div id="headings">
+          <h4 align="center">TAX INVOICE<br>Cash/Credit bill</h4>
+      </div>
+      <div id="copydv">    
+          <h3 id="copy" align="right">Original Copy</h3>
+      </div>
+      <div id="tablebill">
+           <table id="t1" width="100%">
+               <tr>
+                    <td colspan="100%" class="name">
+                         <b id="VI">VICTORY INDUSTRIES</b><br>
+                         <font size="3">Mfrs.Electrical Panel Board Accessories and Rolling Shutter Spare parts</font><br>
+                         NO.83,Gandhi Main Road,Puzhal,Chennai-600 066<br>                    
+                         <b id="VIGST">GSTIN :33AHXPR7557F1ZM</b><br>
+                         <font size="3">State :Tamilnadu Code:33<br>
+                         Contact :9841378038 , 8681054495 <br>
+                         Email :victoryindustries2017@gmail.com</font>
+                    </td>
+               </tr>
+               <tr>
+                    <td colspan="55%" rowspan="4" id="partyname">
+                         <p id="partyadd">
+                              <b>TO:</b><br>SHREE ELECTRICALS,<br>NO.13,<br>Paris,<br>Chennai,<br>11223346
+                         </p>
+                    </td>
+                    <td id="subdetails" colspan="45%" id="billno">NO.<b>000</b></td>
+               </tr>
+               <tr><td id="subdetails" colspan="45%">YEAR:<b>2020-2021</b></td></tr>
+               <tr><td id="subdetails" colspan="45%">DATE:<b>05/06/2020</b></td></tr>
+               <tr><td id="subdetails" colspan="45%">LORRY NO:<b>TN11AP3904</b></td></tr>
+               <tr class="partygst">
+                    <td colspan="100%"><p id="gstno">Party's GSTIN No. 33AACFT8854D1Z8</p></td>
+               </tr>
+               <tr>
+                    <td id="t2head" class="sno" rowspan="2" colspan="5%">S.no</td>
+                    <td id="t2head" class="paticular" rowspan="2" colspan="45%">Particulars</td>
+                    <td id="t2head" class="hsn" rowspan="2" colspan="10%">HSN<br>code</td>
+                    <td id="t2head" class="qty" rowspan="2" colspan="10%">QTY<br>NOS</td>
+                    <td id="t2head" class="rate" colspan="15%">Rate</td>
+                    <td id="t2head" class="amount" colspan="15%">Amount</td>
+               </tr>
+               <tr>
+                    <td id="t2head" colspan="10%">RS.</td>
+                    <td id="t2head" colspan="5%">p</td>
+                    <td id="t2head" colspan="10%">RS.</td>
+                    <td id="t2head" colspan="5%">p</td>
+               </tr> 
+               <tr id="goods">
+                     <td colspan="5%" id="item_Sno">1</td>
+                     <td colspan="45%" id="item_Particular">DEF</td>
+                     <td colspan="10%" id="item_HSN">8538</td>
+                     <td colspan="10%" id="item_Quantity">120</td>
+                     <td colspan="10%" id="item_Rate">28</td>
+                     <td colspan="5%" id="item_Ratep">00</td>
+                     <td colspan="10%" id="item_Amount">3360</td>
+                     <td colspan="5%" id="item_Amountp">00</td>
+               </tr>
+               <tr id="emptyspace" height="245px">
+                    <td colspan="5%" id="item_Sno"></td>
+                    <td colspan="45%" id="item_Particular"></td>
+                    <td colspan="10%" id="item_HSN"></td>
+                    <td colspan="10%" id="item_Quantity"></td>
+                    <td colspan="10%" id="item_Rate"></td>
+                    <td colspan="5%" id="item_Ratep"></td>
+                    <td colspan="10%" id="item_Amount"></td>
+                    <td colspan="5%" id="item_Amountp"></td>
+              </tr>
+               <tr>
+                    <td colspan="70%" rowspan="5">BANK   : INDIAN BANK<br>
+                        A/c No : 6520412737<br>
+                        IFSC   : IDIB000M172<br>
+                        Branch : Medavakkam
+                    </td>
+                    <td colspan="15%" id="cols3"><b>TOTAL</td>
+                    <td colspan="10%" width="13%" id="totalrup">3360</td>
+                    <td colspan="5%" width="4%"id="totalp">00</td>
+               </tr>
+               <tr>
+                    <td colspan="15%" id="cols3"><b id="perc_cgst">CGST 9%</td>
+                    <td colspan="10%" id="cgstrup">302</td>
+                    <td colspan="5%" id="cgstp" width="4%">40</td>
+               </tr>
+               <tr>
+                    <td colspan="15%" id="cols3"><b id="perc_sgst">SGST 9%</td>
+                    <td colspan="10%" id="sgstrup">302</td>
+                    <td colspan="5%" id="sgstp" width="4%">40</td>
+               </tr>
+               <tr>
+                    <td colspan="15%" id="cols3"><b id="perc_igst">IGST 0%</td>
+                    <td colspan="10%" id="igstrup">0</td>
+                    <td colspan="5%" id="igstp" width="4%">00</td>
+               </tr>
+               <tr>
+                    <td colspan="15%" id="cols3"><b>GRAND TOTAL</td>
+                    <td colspan="10%" id="grandrup">3964</td>
+                    <td colspan="5%" id="grandp" width="4%">80</td>
+               </tr>
+               <tr>
+                    <td id="t2head" rowspan="2" colspan="5%">HSN</td>
+                    <td id="t2head" rowspan="2" colspan="15%">Taxable Value</td>
+                    <td id="t2head" rowspan="1" colspan="20%">Central Tax</td>
+                    <td id="t2head" rowspan="1" colspan="20%">State Tax</td>
+                    <td id="t2head" rowspan="1" colspan="20%">Integrated Tax</td>
+                    <td id="t2head" rowspan="2" colspan="20%">Total Tax Amount</td>
+               </tr>
+               <tr>
+                    <td id="t2head" colspan="7%">Rate</td>
+                    <td id="t2head" colspan="13%">Amount</td>
+                    <td id="t2head" colspan="7%">Rate</td>
+                    <td id="t2head" colspan="13%">Amount</td>
+                    <td id="t2head" colspan="7%">Rate</td>
+                    <td id="t2head" colspan="13%">Amount</td>
+               </tr>
+               <tr>
+                    <td colspan="5%" id="t4hsn">8538</td>
+                    <td colspan="15%" id="t4amt">3360.00</td>
+                    <td colspan="7%" id="t4perc_cgst">9%</td>
+                    <td colspan="13%" id="t4sgst">302.40</td>
+                    <td colspan="7%" id="t4perc_sgst">9%</td>
+                    <td colspan="13%" id="t4cgst">302.40</td>
+                    <td colspan="7%" id="t4perc_igst">0%</td>
+                    <td colspan="13%" id="t4igst">0.00</td>
+                    <td colspan="20%" id="t4tot">604.80</td>
+               </tr>
+               <tr id="t2head">
+                    <td colspan="5%" align="right">Total</td>
+                    <td colspan="15%" id="t4amt1" align="right"></td>
+                    <td colspan="7%" align="right"></td>
+                    <td colspan="13%" id="t4sgst1" align="right">302.40</td>
+                    <td colspan="7%" align="right"></td>
+                    <td colspan="13%" id="t4cgst1" align="right">302.40</td>
+                    <td colspan="7%" align="right"></td>
+                    <td colspan="13%" id="t4igst1"align="right">0.00</td>
+                    <td colspan="20%" id="t4tot1" align="right">604.80</td>
+               </tr>
+               <tr>
+                    <td id="t4words" colspan="100%">TAX AMOUNT(in words): SIX HUNDRED FOUR RUPEES EIGHTY  PAISE ONLY</td>
+               </tr>
+               <tr>
+                    <td id="inwords" colspan="70%">Rupees: THREE THOUSAND NINE HUNDRED SIXTY FOUR RUPEES EIGHTY  PAISE ONLY</td>
+                    <td colspan="30%"><center>For <b>VICTORY INDUSTRIES</b><br><br><br>Authorised Signatory</center></td>
+               </tr>             
+          </table>
+          <p id="footer" align="center">SUBJECT TO CHENNAI JURISDICTION<br>This is a Computer Generated Invoice</p>
+     </div>
+</body>
+</html>

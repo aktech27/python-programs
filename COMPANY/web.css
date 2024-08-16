@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#headings{
+    margin: 5px;
+}
+#copy{
+    margin-top: -30px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+#t1,#t1 td{
+    border-collapse: collapse;
+    border: 1px solid;
+}
+#t4words{
+    font-size: 12px;
+}
+.name,#VIGST{
+    text-align: center;
+    font-size: 19px;
+}
+#VI{
+    text-align: center;
+    font-size: 22px;
+}
+#subdetails{
+    padding-left: 2px;
+}
+#partyadd{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.partygst{
+    font-size: 24px;
+}
+#t2head{
+    text-align: center;
+    font-weight: bold;
+}
+.sno{
+    width: 5%;
+}
+.particular{
+    width: 45%;
+}
+.qty{
+    width: 10%;
+}
+.hsn{
+    width: 10%;
+}
+.rate{
+    width: 13%;
+}
+.amount{
+    width: 13%;
+}
+.p{
+    width: 4%;
+}
+#goods{
+    text-align: center;
+    font-size: 18px;
+    line-height: 100%;
+    height: 35px;
+}
+#particulars{
+    text-align: center;
+    font-size: 16px;
+    line-height: 100%;
+    height: 35px; 
+}
+#cols3{
+    font-size: 14px;
+    text-align: right;
+}
+#iqty,#irate{
+    width: 100px;
+}
+#ipaise{
+    width: 35px;
+}
+#last{
+    font-size: 20px;
+}
+#totalrup,#totalp,#cgstrup,#cgstp,#sgstrup,#sgstp,#igstrup,#igstp{
+    text-align: right;
+    font-size: 16px;
+}
+#grandrup,#grandp{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;    
+}
+#inwords{
+    font-size: 20px;
+}
+#footer{
+    margin-top: 5px;
+}
