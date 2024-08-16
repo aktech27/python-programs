@@ -1,0 +1,17 @@
+company,job,degree,salary_more_100k
+google,salesexcutive,bachelor,0
+google,salesexcutive,master,0
+google,business manager,bachelor,1
+google,business manager,master,1
+google,computer programmer,bachelor,0
+google,computer programmer,master,1
+ibm,salesexcutive,master,0
+ibm,computer programmer,bachelor,0
+ibm,business manager,bachelor,0
+ibm,business manager,master,1
+facebook,salesexcutive,bachelor,1
+facebook,salesexcutive,master,1
+facebook,business manager,bachelor,1
+facebook,business manager,master,1
+facebook,computer programmer,bachelor,1
+facebook,computer programmer,master,1

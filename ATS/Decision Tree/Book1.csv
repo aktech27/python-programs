@@ -1,0 +1,75 @@
+CarName,fueltype,aspiration,doornumber,carbody,price
+alfa romero giulia,gas,std,two,convertible,13495
+alfa romero stelvio,gas,std,two,convertible,16500
+alfa romero Quadrifoglio,gas,std,two,hatchback,16500
+audi 100 ls,gas,std,four,sedan,13950
+audi 100ls,gas,std,four,sedan,17450
+audi fox,gas,std,two,sedan,15250
+audi 100ls,gas,std,four,sedan,17710
+audi 5000,gas,std,four,wagon,18920
+audi 4000,gas,turbo,four,sedan,23875
+audi 5000s (diesel),gas,turbo,two,hatchback,17859.167
+bmw 320i,gas,std,two,sedan,16430
+bmw 320i,gas,std,four,sedan,16925
+bmw x1,gas,std,two,sedan,20970
+bmw x3,gas,std,four,sedan,21105
+bmw z4,gas,std,four,sedan,24565
+bmw x4,gas,std,four,sedan,30760
+bmw x5,gas,std,two,sedan,41315
+bmw x3,gas,std,four,sedan,36880
+chevrolet impala,gas,std,two,hatchback,5151
+chevrolet monte carlo,gas,std,two,hatchback,6295
+chevrolet vega 2300,gas,std,four,sedan,6575
+dodge rampage,gas,std,two,hatchback,5572
+dodge challenger se,gas,std,two,hatchback,6377
+dodge d200,gas,turbo,two,hatchback,7957
+dodge monaco (sw),gas,std,four,hatchback,6229
+dodge colt hardtop,gas,std,four,sedan,6692
+dodge colt (sw),gas,std,four,sedan,7609
+dodge coronet custom,gas,turbo,two,sedan,8558
+dodge dart custom,gas,std,four,wagon,8921
+dodge coronet custom (sw),gas,turbo,two,hatchback,12964
+honda civic,gas,std,two,hatchback,6479
+honda civic cvcc,gas,std,two,hatchback,6855
+honda civic,gas,std,two,hatchback,5399
+honda accord cvcc,gas,std,two,hatchback,6529
+honda civic cvcc,gas,std,two,hatchback,7129
+honda accord lx,gas,std,four,sedan,7295
+honda civic 1500 gl,gas,std,four,wagon,7295
+honda accord,gas,std,two,hatchback,7895
+honda civic 1300,gas,std,two,hatchback,9095
+honda prelude,gas,std,four,sedan,8845
+honda accord,gas,std,four,sedan,10295
+honda civic,gas,std,four,sedan,12945
+honda civic (auto),gas,std,two,sedan,10345
+isuzu MU-X,gas,std,four,sedan,6785
+isuzu D-Max ,gas,std,two,sedan,8916.5
+isuzu D-Max V-Cross,gas,std,four,sedan,8916.5
+isuzu D-Max ,gas,std,two,hatchback,11048
+jaguar xj,gas,std,four,sedan,32250
+jaguar xf,gas,std,four,sedan,35550
+jaguar xk,gas,std,two,sedan,36000
+maxda rx3,gas,std,two,hatchback,5195
+maxda glc deluxe,gas,std,two,hatchback,6095
+mazda rx2 coupe,gas,std,two,hatchback,6795
+mazda rx-4,gas,std,four,sedan,6695
+mazda glc deluxe,gas,std,four,sedan,7395
+mazda 626,gas,std,two,hatchback,10945
+mazda glc,gas,std,two,hatchback,11845
+mazda rx-7 gs,gas,std,two,hatchback,13645
+mazda glc 4,gas,std,two,hatchback,15645
+mazda 626,gas,std,two,hatchback,8845
+mazda glc custom l,gas,std,four,sedan,8495
+mazda glc custom,gas,std,two,hatchback,10595
+mazda rx-4,gas,std,four,sedan,10245
+mazda glc deluxe,diesel,std,four,sedan,10795
+mazda 626,gas,std,four,hatchback,11245
+mazda glc,gas,std,four,sedan,18280
+mazda rx-7 gs,diesel,std,four,sedan,18344
+buick electra 225 custom,diesel,turbo,four,sedan,25552
+buick century luxus (sw),diesel,turbo,four,wagon,28248
+buick century,diesel,turbo,two,hardtop,28176
+buick skyhawk,diesel,turbo,four,sedan,31600
+buick opel isuzu deluxe,gas,std,four,sedan,34184
+buick skylark,gas,std,two,convertible,35056
+buick century special,gas,std,four,sedan,40960
